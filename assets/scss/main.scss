@@ -79,7 +79,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -91,16 +91,16 @@ body {
 .box-text {
     font-family: 'Raleway', sans-serif;
     font-size: .9rem;
-    color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.39);
 }
 
 #section-2{
-    background-color: #000000;
+    background-color: #ffffff77;
     border-top: #ff6101 1px solid;
 }
 
 .hero {
-    background-color: #000000e0 !important;
+    background-color: #000000dc !important;
     color: #ffffff;
 }
 
@@ -176,6 +176,11 @@ section{
 .section .ball img {
     height: 50px;
     width: 50px;
+}
+
+.is-grey {
+    background-color: #00000094;
+    border-top: #ff6101 1px solid;
 }
 
 
