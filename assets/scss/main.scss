@@ -1,0 +1,181 @@
+--- 
+--- 
+
+@import 'animations';
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+};
+
+body {
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.navbar-menu{
+    background-color: #000000;
+    
+    
+   
+}
+
+.navbar {
+    border-bottom: 1px solid #ff6101;
+    
+}
+
+.navbar-item {
+    color: #ffffff;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.navbar-item:hover{
+    background-color: #2b2b2bce;
+    border-right: 1px solid #ff6101;
+    color: #ff6101 !important;
+    font-weight: bold;
+}
+
+.is-orange {
+    color: orange;
+}
+
+.is-purple {
+    color: purple;
+}
+
+.is-white {
+    color: white;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn-banner {
+    padding: 1.4rem;
+    width: 10rem;
+    background-color: transparent;
+    border: 2px solid #ff6101;
+}
+
+.background{
+    position: fixed;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+
+.box-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.icon-box .icon-wrapper img {
+    height: 100px;
+    width: 100px;
+}
+
+.box-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: .9rem;
+    color: rgb(255, 255, 255);
+}
+
+#section-2{
+    background-color: #000000;
+    border-top: #ff6101 1px solid;
+}
+
+.hero {
+    background-color: #000000e0 !important;
+    color: #ffffff;
+}
+
+.ball {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: -1px 3px 10px 0 rgba(0,0,0,0.06);
+    box-shadow: -1px 3px 10px 0 rgba(0,0,0,0.06);
+    margin: 0 auto;
+}
+
+.v-indicator {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #00D1B2;
+    font-size: .6rem;
+    font-weight: 500;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.has-version {
+    position: relative;
+}
+
+.has-delay-1 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.has-delay-2 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+section{
+    outline: none !important;
+}
+
+.title-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content-wrapper {
+    padding: 40px 0;
+}
+
+.section .ball img {
+    height: 50px;
+    width: 50px;
+}
+
+
