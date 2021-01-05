@@ -1,31 +1,33 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<section class="hero has-background is-dark is-fullheight" id="hero">
-	<img class="animate-on-visibility hero-background is-transparent" alt="building" src="{{ site.baseurl }}/assets/images/img1.jpg">
-	<div class="hero-head">
-		<div class="container">			
-			{% include navigation.html %}
-		</div>
-	</div>	
-	
-	<div class="hero-body pt-6">	
-		<div class="container">		
-			<div class="columns">
-				<div class="column pr-6">
-					<div class="animate__animated animate__bounce text-right">
-						<h2 class="is-size-2">{ {{ page.herotitle }} }
-							<span class="has-text-weight-bold is-purple">{{ page.herominititle }}</span>
-							<span class="has-text-weight-bold is-orange">.</span>
-							<br>
-							{{ page.headline }}
-						</h2>						
-						
-						<br> Nairobi </p> 
-						<a class="button is-rounded btn-banner mt-6">
-							Learn more
-						</a>
+<section class="hero is-fullheight-with-navbar" id="hero">
+
+		<img class="animate-on-visibility background" alt="" src="{{ site.baseurl }}/assets/images/img2.jpg">
+		
+				
+		{% include navigation.html %}
+		
+		
+		
+		<div class="hero-body pt-6">	
+			<div class="container">		
+				<div class="columns">
+					<div class="column pr-6">
+						<div class="animate__animated animate__bounce text-right">
+							<h2 class="is-size-2">{ {{ page.herotitle }} }
+								<span class="has-text-weight-bold is-purple">{{ page.herominititle }}</span>
+								<span class="has-text-weight-bold is-orange">.</span>
+								<br>
+								{{ page.headline }}
+							</h2>						
+							
+							<br> Nairobi </p> 
+							<a class="button is-rounded btn-banner mt-6 has-text-white-ter">
+								Learn more
+							</a>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>		
-	</div>
+			</div>		
+		</div>
+	
 </section>
